@@ -19,25 +19,30 @@
 .top-navigation-bar {
     height: 60px;
     width: 100%;
-    background-color: grey
+    background-color: #EAEDED;
 }   
 
 .top-bar-content {
-    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+.top-bar-company-title {
+    float: left;
+    font-size: 30px;
+}
+
 ul {
+    float: right;
     list-style-type: none;
     overflow: hidden;
-    background-color: #EAEDED;
     padding: 0;
     margin: 0;
 }
 
 li {
     float: left;
+    font-size: 20px;
 }
 
 li a {
@@ -62,5 +67,4 @@ li a {
     bottom: 0;
     height: 50px;
     width: 100%;
-    background-color: yellow;
 }
