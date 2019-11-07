@@ -1,0 +1,50 @@
+.top-bar-container {
+    height: 300px;
+    wdith: 100%;
+    background-color: blue
+}
+
+.top-bar-title {
+    height: 240px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.top-navigation-bar-contaier {
+    height: 100%;
+    width: 40%;
+    right: 0;
+}
+
+.top-navigation-bar {
+    height: 60px;
+    width: 100%;
+    background-color: grey
+}   
+
+.top-bar-content {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li.top-bar-content {
+    padding-left: 20px;
+    text-align: center;
+}
+
+.address-container {
+    height: 500px;
+    width: 100%
+}
+
+.map-container {
+    height: 400px;
+    width: 100%
+}
+
+.bottom-bar-container {
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
