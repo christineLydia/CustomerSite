@@ -4,10 +4,11 @@
     background-color: blue
 }
 
-.top-bar-title {
-    height: 240px;
+.top-bar-background-home {
+    height: 350px;
     width: 100%;
-    background-color: yellow;
+    background-image: url("../images/NYC_Wallpaper_5.jpg");
+    background-size: 100% 100%;
 }
 
 .top-navigation-bar-contaier {
@@ -28,9 +29,24 @@
     padding-bottom: 5px;
 }
 
-li.top-bar-content {
-    padding-left: 20px;
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #EAEDED;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .address-container {
